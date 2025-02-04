@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #202124;
+    color: #e8eaed;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+}
+
+header {
+    padding: 8px 16px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+}
+
+.left-nav, .right-nav {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.nav-btn {
+    background: none;
+    border: none;
+    color: #e8eaed;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.nav-btn:hover {
+    background-color: rgba(232, 234, 237, 0.08);
+}
+
+.icon-btn {
+    background: none;
+    border: none;
+    color: #e8eaed;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-btn:hover {
+    background-color: rgba(232, 234, 237, 0.08);
+}
+
+.avatar-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 92px;
+}
+
+.logo {
+    margin-bottom: 32px;
+}
+
+.logo img {
+    height: 92px;
+    width: auto;
+}
+
+.search-wrapper {
+    width: 100%;
+    max-width: 584px;
+    margin-bottom: 32px;
+}
+
+.search-bar {
+    background-color: #303134;
+    border: 1px solid transparent;
+    border-radius: 24px;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.search-bar:hover {
+    background-color: #303134;
+    border-color: #5f6368;
+}
+
+.search-bar input {
+    flex: 1;
+    background: none;
+    border: none;
+    color: #e8eaed;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-bar .material-icons {
+    color: #9aa0a6;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.shortcuts {
+    display: flex;
+    gap: 16px;
+}
+
+.shortcut {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #e8eaed;
+    width: 112px;
+    text-align: center;
+}
+
+.shortcut-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #303134;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.shortcut:hover .shortcut-icon {
+    background-color: #3c4043;
+}
+
+.shortcut span {
+    font-size: 13px;
+}
+
+.youtube .material-icons {
+    color: #ff0000;
+}
+
+.movies .material-icons {
+    color: #ffd700;
+}
+
+.gmail .material-icons {
+    color: #4285f4;
+}
+
+.notes .material-icons {
+    color: #fbbc04;
+}
+
+.add .material-icons {
+    color: #8ab4f8;
+}
+.yut{
+    width: 32px;
+    height: 32px;
+    border-radius: 10px;
+}
+.mov{
+    width: 32px;
+    height: 32px;
+    border-radius: 10px;
+}
+.g-mail{
+    width: 32px;
+    height: 32px;
+    border-radius: 10px;
+}
+.Note{
+    width: 32px;
+    height: 32px;
+    border-radius: 10px;
+}
