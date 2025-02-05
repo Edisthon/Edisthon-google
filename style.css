@@ -22,7 +22,7 @@ nav {
     height: 48px;
 }
 
-.left-nav, .right-nav {
+.right-nav {
     display: flex;
     align-items: center;
     gap: 4px;
@@ -69,7 +69,7 @@ nav {
     font-size: 16px;
 }
 
-main {
+.main-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -153,22 +153,6 @@ main {
 
 .shortcut span {
     font-size: 13px;
-}
-
-.youtube .material-icons {
-    color: #ff0000;
-}
-
-.movies .material-icons {
-    color: #ffd700;
-}
-
-.gmail .material-icons {
-    color: #4285f4;
-}
-
-.notes .material-icons {
-    color: #fbbc04;
 }
 
 .add .material-icons {
